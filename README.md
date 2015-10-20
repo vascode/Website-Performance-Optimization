@@ -16,15 +16,16 @@ Some useful tips to help you get started:
   $> python -m SimpleHTTPServer 8080
   ```
   
-  for python3, "simpleHTTPServer" is replaced by "http.server"
+  (for python3, "simpleHTTPServer" is replaced by "http.server")
 
 1. Open a browser and visit localhost:8080
 1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
 
   ``` bash
   $> cd /path/to/your-project-folder
-  $> ngrok 8080
+  $> ngrok.exe http 8080
   ```
+
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
