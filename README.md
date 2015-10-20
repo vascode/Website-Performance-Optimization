@@ -15,6 +15,8 @@ Some useful tips to help you get started:
   $> cd /path/to/your-project-folder
   $> python -m SimpleHTTPServer 8080
   ```
+  
+  for python3 ("simpleHTTPServer" is replaced by "http.server"
 
 1. Open a browser and visit localhost:8080
 1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
